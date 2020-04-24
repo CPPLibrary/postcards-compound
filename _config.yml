@@ -10,9 +10,9 @@
 # url is your gh-pages base, following the pattern: username.github.io
 url: https://CPPLibrary.github.io
 # baseurl is your github repository's name prefixed with a /
-baseurl: /cb-gh-postcards
+baseurl: /postcards-compound
 # location of code, the full url to your github repository
-source-code: https://github.com/evanwill/cb-gh-postcards
+source-code: https://github.com/CPPLibrary/postcards-compound
 
 ##########
 # SITE SETTINGS
@@ -20,7 +20,7 @@ source-code: https://github.com/evanwill/cb-gh-postcards
 # title of site appears in banner
 title: WKKAHL Arabian Horse Postcards Collections
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: demo of two sided postcard objects
+tagline: Postcards of Arabian horses from the golden age of Cal Poly Pomona
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"

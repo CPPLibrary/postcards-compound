@@ -12,7 +12,7 @@ url: https://CPPLibrary.github.io
 # baseurl is your github repository's name prefixed with a /
 baseurl: /postcards-compound
 # location of code, the full url to your github repository
-source-code: https://github.com/CPPLibrary/postcards-compound
+source-code: https://github.com/evanwill/cb-gh-compound
 
 ##########
 # SITE SETTINGS

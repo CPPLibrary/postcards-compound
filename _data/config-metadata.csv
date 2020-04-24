@@ -1,0 +1,20 @@
+field,display_name,browse_link
+title,Title,
+date,Date Created,
+description,Description,
+subject,Subjects,true
+item_information,Item information
+postcard_type,Postcard type
+photographer,Photographer
+location,Location
+state,State
+latitude,Latitude
+longitude,Longitude
+publisher,Publisher
+publisher_location,Publisher Location
+source,Source
+identifier,Source Identifier
+type,Type,
+format,Format,
+rights,Rights,
+standardized_rights,Rights Statement,

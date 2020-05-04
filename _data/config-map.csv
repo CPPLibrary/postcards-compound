@@ -1,4 +1,4 @@
 field,display_name,search
-date,Date,true
+date,Date,false
 subject,Subjects,true
 location,Location,true

@@ -1,8 +1,6 @@
-##########
-# collectionbuilder-gh
-# Jekyll Digital Collection Generator, designed for GitHub Pages
-# https://github.com/CollectionBuilder/collectionbuilder-gh
-##########
+########## # collectionbuilder-gh # Jekyll Digital Collection Generator,
+designed for GitHub Pages #
+https://github.com/CollectionBuilder/collectionbuilder-gh ##########
 
 ##########
 # URL VARIABLES
@@ -18,12 +16,12 @@ source-code: https://github.com/evanwill/cb-gh-compound
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: WKKAHL Arabian Horse Postcard Collection
+title: W.K. Kellogg Arabian Horse Library Postcard and Notecard Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Postcards of Arabian horses from the golden age of Cal Poly Pomona
+tagline: Postcards and notecards related to the W.K. Kellogg Ranch
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+description: "Included in the collection are cards depicting the horses of the W.K. Kellogg Ranch, the Kellogg House, the Kellogg Company, and the W.K. Kellogg Ranch."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 

@@ -55,10 +55,6 @@ After the war, the ranch was briefly administered by the Department of Agricultu
 The majority of the collection contains postcards depicting the horses of the W.K. Kellogg Ranch, which are organized alphabetically. The other three series in the collection include postcards depicting the Kellogg Company, the Kellogg House, and the W.K. Kellogg Ranch, which are also organized alphabetically.
 
 
-# Arrangement
-
-The collection is organized into the following series: 1. Horses; 2. Kellogg Company; 3. Kellogg House; 4. Kellogg Ranch.
-
 # Processing Information
 
 The collection was arranged and described by Kara Catano in January 2017. In spring 2020, Jose Quirarte scanned the collection and transcribed accompanying metadata to create this digital collection under the guidance of Alexis Adkins.

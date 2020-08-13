@@ -9,127 +9,68 @@ permalink: /about.html
 
 # About {{ site.title }}.
 
-This site is generated using `collectionbuilder-gh`, a project to generate a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+Title: W.K. Kellogg Arabian Horse Library Postcard and Notecard Collection
 
-- a CSV of collection metadata
-- a folder of JPEG images or PDF documents
+Creator: W.K. Kellogg Arabian Horse Library
 
-`collectionbuilder-gh` is intended as a simple template for hands-on teaching about digital libraries.
-It can be used in a workshop setting to take participants through digitization and metadata creation, to having a live collection site hosted on GitHub.
+Identifier/Call Number: 0015
 
-# Demo about features
+Contributing Institution: California State Polytechnic University, Pomona. Special Collections and Archives
 
-You can use Liquid includes to add Bootstrap features to Markdown pages in your collection site. 
-See the includes in `_includes/feature/` directory.
+Language of Material: English
 
-## Figure 
+Physical Description: 126 postcards and 2 notecards
 
-To add an image from the collection into an interpretive page, use the `item-figure.html` include. 
+Date (inclusive): 1920-1970
 
-The base include requires one option, an `objectid` of an item from the collection:
+Abstract: The collection contains both postcards and notecards related to the W.K. Kellogg Ranch. Included in the collection are cards depicting the horses of the W.K. Kellogg Ranch, the Kellogg House, the Kellogg Company, and the W.K. Kellogg Ranch.
 
-`{% raw %}{% include feature/item-figure.html objectid="postcards_test_469" %}{% endraw %}`
+# Conditions Governing Use
 
-This include will become: 
+Unpublished manuscripts are protected by copyright. Permission to publish, quote, or reproduce must be secured from the repository and the copyright holder.
 
-{% include feature/item-figure.html objectid="postcards_test_469" %}
+# Preferred Citation 
 
-Three further options allow you to style it. 
+[Item name], W.K. Kellogg Arabian Horse Library Postcard and Notecard Collection, Collection no. 0015, W.K. Kellogg Arabian Horse Library, Special Collections and Archives, University Library, California State Polytechnic University, Pomona.
 
-- `width`: 25, 50, 75, or 100
-- `float`: left or right
-- `caption`: By default the include automatically adds the item title as the caption. If you would like to override that, use `caption=false` for none, or `caption="Example caption"` to manually create one.
+# Immediate Source of Acquisition 
 
-For example: 
+The W.K. Kellogg Arabian Horse Library actively collects postcards and notecards related to the W.K. Kellogg Ranch, Manor House, and Kellogg Company. Materials in the collection have been both purchased by and donated to the Library.
 
-`{% raw %}{% include feature/item-figure.html objectid="postcards_test_469" width="50" float="left" caption="Example 50% width and floating left" %}{% endraw %}`
+# Biographical / Historical
 
-Becomes: 
+In 1925, cereal magnate W.K. Kellogg established an Arabian horse breeding program at his winter ranch home in Pomona, California. The Kellogg Ranch became a popular destination for 1920s Hollywood stars and the horses were showcased for the public at Sunday shows.
 
-{% include feature/item-figure.html objectid="postcards_test_469" width="50" float="left" caption="Example 50% width and floating left" %}
+ 
 
-You will probably want to "clear" the float at some point in your text. 
-Add `<div class="clearfix"></div>` on it's own line to do so. 
-The clearfix div is added below this paragraph, thus the next section will NOT wrap around the floating figure and will start below.
+W.K. Kellogg donated the ranch to the state of California in 1932 with the stipulation that the Arabian breeding program and Sunday shows continue. During World War II, the ranch was used by U.S. Army as a remount depot to breed horses for the cavalry.
 
-<div class="clearfix"></div>
+ 
 
-## Alert 
+After the war, the ranch was briefly administered by the Department of Agriculture before being turned over to California State Polytechnic College San Luis Obispo for use as their southern branch in 1949. The campus grew rapidly in the post-war period and Cal Poly Pomona was established as a separate school in 1966. Cal Poly has maintained the Arabian horse breeding program and Sunday shows to the present day according to W.K. Kellogg's wishes.
 
-[Bootstrap Alert](https://getbootstrap.com/docs/4.4/components/alerts/) is a quick way to set some text apart. 
-The include has three options: 
-`text` (what it says, can be in Markdown), `color` (a Bootstrap color), `align` (the text alignment).
 
-For example: 
+# Scope and Contents
 
-`{% raw %}{% include feature/alert.md text="Example alert text" color="success" align="center" %}{% endraw %}`
+The majority of the collection contains postcards depicting the horses of the W.K. Kellogg Ranch, which are organized alphabetically. The other three series in the collection include postcards depicting the Kellogg Company, the Kellogg House, and the W.K. Kellogg Ranch, which are also organized alphabetically.
 
-Becomes:
 
-{% include feature/alert.md text="Example alert text" color="success" align="center" %}
+# Arrangement
 
-## Card
+The collection is organized into the following series: 1. Horses; 2. Kellogg Company; 3. Kellogg House; 4. Kellogg Ranch.
 
-[Bootstrap Card](https://getbootstrap.com/docs/4.4/components/card/) in another option to breakup long text into smaller organized units. 
-The options allow you to set up all the Card elements. 
+# Processing Information
 
-- "text" = main card text, can use markdown formatting. Use a Liquid capture to add more complex content.
-- "header" = card header text (in bar above card content)
-- "title" = card title text inside card content area
-- "objectid" = the given object (photo or youtube) will create a card cap image
-- "width" will use Bootstrap sizing to set the % size, choose from "25", "50", "75", or "100"
-- "float" will use Bootstrap float utility to add float, choose from "left" or "right"
+The collection was arranged and described by Kara Catano in January 2017. In spring 2020, Jose Quirarte scanned the collection and transcribed accompanying metadata to create this digital collection under the guidance of Alexis Adkins.
 
-For example:
+# Subjects and Indexing Terms
 
-```{% raw %}
-{% capture exampletext %}
-An example card with:
+W.K. Kellogg Arabian Horse Ranch
 
-- header
-- title
-- text
+W.K. Kellogg Arabian Horse Center
 
-{% endcapture %}
-{% include feature/card.md text=exampletext header="Example header" title="Title example" %}{% endraw %}
-```
+Kellogg House Pomona (Pomona, Calif.)
 
-{% capture exampletext %}
-An example card with:
+Arabian horse
 
-- header
-- title
-- text
-
-Becomes: 
-
-{% endcapture %}
-{% include feature/card.md text=exampletext header="Example header" title="Title example" %}
-
-## Modal
-
-[Bootstrap Modal](https://getbootstrap.com/docs/4.4/components/modal/) is a popup text feature. 
-Options: 
-
-- "button" = text of button to trigger modal
-- "color" = color of modal button (primary, secondary, success, danger, warning, info, light, dark)
-- "title" = header text for modal pop up
-- "text" = body text for modal pop up, can use Markdown
-
-This:
-
-`{% raw %}{% include feature/modal.md button="Example Modal" color="success" title="Modal title" text="A bit of text in the modal" %}{% endraw %}`
-
-Produces: 
-
-{% include feature/modal.md button="Example Modal" color="success" title="Modal title" text="A bit of text in the modal" %}
-
-## timelinejs.html 
-
-Add a auto generated TimelineJS feature:
-
-`{% raw %}{% include feature/timelinejs.html %}{% endraw %}`
-
-Adds: 
-
-{% include feature/timelinejs.html %}
+Postcards

@@ -5,3 +5,4 @@ description,true,true
 subject,true,true
 location,true,false
 publisher,true,false
+series,true,true

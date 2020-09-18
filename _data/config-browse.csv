@@ -3,4 +3,4 @@ date,Date,
 subject,,true
 location,,true
 state,,true
-series,Series,
+series,Series,true

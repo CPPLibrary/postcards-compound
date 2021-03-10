@@ -60,3 +60,9 @@ $theme-colors: map-merge(
     background-color: rgba(255, 255, 255, 1);
     color: #343a40;
 }
+
+// Change link color for contrast
+
+a {
+    color: #0000cc;
+}

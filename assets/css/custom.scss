@@ -44,3 +44,19 @@ $theme-colors: map-merge(
 );
 
 @import "base", "theme-colors", "pages", "custom";
+
+
+// Change nav colors in footer
+
+/* not active */
+.nav-pills .cpp .nav-link:not(.active) {
+    background-color: rgba(52, 58, 64, 1);
+    color: #fff;
+}
+
+
+/* active (faded) */
+.nav-pills .cpp .nav-link {
+    background-color: rgba(255, 255, 255, 1);
+    color: #343a40;
+}

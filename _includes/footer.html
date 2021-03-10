@@ -10,12 +10,12 @@
                 <ul class="nav nav-pills">
                     {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
                     {% for nav in navItems %}
-                    <li class="nav-item">
+                    <li class="nav-item btn btn-outline-dark">
                     {% if nav.stub %}
-                        <a class="nav-link btn-outline-dark{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+                        <a class="nav-link text-dark{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
                     {%- else -%}o
                     {% assign childStub = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' | first %}
-                        <a class="nav-link btn-outline-dark{% if page.url == childStub.stub %} active{% endif %}" href="{{ childStub.stub | relative_url }}">{{ nav.display_name }}</a>
+                        <a class="nav-link text-dark{% if page.url == childStub.stub %} active{% endif %}" href="{{ childStub.stub | relative_url }}">{{ nav.display_name }}</a>
                     {% endif %}o
                     </li>o
                     {%- endfor -%}o

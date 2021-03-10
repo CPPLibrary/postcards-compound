@@ -66,3 +66,18 @@ $theme-colors: map-merge(
 a {
     color: #0000cc;
 }
+
+// Change link color for contrast in page navigation
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.page-link {
+    color: #0000cc;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}

@@ -11,3 +11,4 @@ vendor/
 
 # Ignore mac files 
 .DS_Store
+_data/postcards_demo.numbers
